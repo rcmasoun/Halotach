@@ -876,8 +876,7 @@ section,
 
 .blog-hero .blog-hero-item {
   position: relative;
-  height: 80vh;
-  min-height: 600px;
+  
 }
 
 .blog-hero .blog-hero-item img {
