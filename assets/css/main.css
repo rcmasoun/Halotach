@@ -216,10 +216,10 @@ h6 {
 }
 
 .header .header-container {
-  border-radius: 20px;
+  
   padding: 15px;
   background-color: var(--background-color);
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 80%);
+ 
 }
 
 .header .social-links {
@@ -357,7 +357,7 @@ h6 {
 .navmenu a:hover .navicon,
 .navmenu .active .navicon,
 .navmenu .active:focus .navicon {
-  color: var(--accent-color);
+  color: white;
 }
 
 .navmenu .active .toggle-dropdown,
@@ -5131,7 +5131,7 @@ section,
 
 /*--------------------------------------------------------------
 # Navigation Menu
---------------------------------------------------------------
+--------------------------------------------------------------*/
 .navmenu {
   padding: 0;
   z-index: 9997;
@@ -5141,7 +5141,7 @@ section,
   list-style: none;
   padding: 0 0 20px 0;
   margin: 0;
-  width: 140px;
+  width: 200px;
 }
 
 .navmenu a,
@@ -5195,7 +5195,7 @@ section,
 .navmenu a:hover,
 .navmenu li:hover>a {
   max-width: 100%;
-  color: var(--contrast-color);
+  color: white;
 }
 
 .navmenu a:hover span,
@@ -5369,7 +5369,7 @@ section,
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
-/* Navmenu - Desktop */
+/* Navmenu - Desktop 
 @media (min-width: 1200px) {
   .navmenu1 {
     padding: 0;
